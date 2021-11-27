@@ -11,5 +11,5 @@
 $python ebay-dl.py "search term" --csv 
 ```
 <br />
-<br />
-I believe that I've completed Credit 3, 4, and 7. However, for Credit 3, the vast majority of my valid comment were made on r/BotTown, which was banned later. If possible, I may prove that I did so in whichever way you prefer.
+
+4. I believe that I've completed Credit 3, 4, and 7. However, for Credit 3, the vast majority of my valid comment were made on r/BotTown, which was banned later. If possible, I may prove that I did so in whichever way you prefer.
