@@ -6,12 +6,13 @@ import datetime
 import time
 import prawcore
 from textblob import TextBlob
+from praw.exceptions import APIException
 
 # FIXME:
 # copy your generate_comment function from the madlibs assignment here
 madlibs = [
     'Who is running this lame [COLLECTION] of [BOTS] & [TROLLS] anyway? Try harder! I’m an [ENGINEER], knucklehead. Just do [BUSINESS] on the side.',
-    'Tesla is filing a [LAWSUIT] against [ALAMEDA COUNTY] immediately. The unelected & ignorant [“INTERIM HEALTH OFFICER”] of [ALAMEDA] is acting contrary to the [GOVERNOR], the President, our Constitutional freedoms & just plain common sense!', 
+    'Tesla is filing a [LAWSUIT] against [ALAMEDA COUNTY] immediately. The unelected & ignorant [INTERIM HEALTH OFFICER] of [ALAMEDA] is acting contrary to the [GOVERNOR], the President, our Constitutional freedoms & just plain common sense!', 
     '(Formerly) [MAINSTREAM MEDIA] has systemic negative & political bias about almost everything. Reading major [NEWSPAPERS] makes you feel sad & [ANGRY]. That’s why they’re being [CRUSH] by [@JOEROGAN]. ',
     '[EXTREMELY] big difference between died because of or died with. Also, did the person actually have [C19] or did they just have [C19] symptoms? It’s almost impossible to [DIE] without feeling [WEAKNESS], shortness of breath or other [C19] symptoms, unless you were crushed by a falling [PIANO].',
     'Another reason reported [MORTALITY] rate is overstated is that dying [*WITH*] [COVID] is not same as dying [*FROM*] covid. [MEDIA] keeps reporting former, not latter.',
@@ -26,7 +27,7 @@ replacements = {
     'LAWSUIT': ['action', 'trial', 'epic moment', 'gamer moment', 'lawsuit'],
     'ALAMEDA COUNTY': ['the US', 'Mars', 'the Earth', 'the poor people','Alameda County'],
     'ALAMEDA': ['the US', 'Mars', 'the Earth', 'poor people','Alameda County'],
-    '“INTERIM HEALTH OFFICER”': ['clown', 'gamer', 'Interim Health Officer', 'tax-paid official', 'Joker'],
+    'INTERIM HEALTH OFFICER': ['clown', 'gamer', '"Interim Health Officer"', 'tax-paid official', 'Joker'],
     'GOVERNOR': ['citizens', 'rich people', 'me', 'Governor','Alameda'],
     'MAINSTREAM MEDIA':['Fox News', 'CNN', 'Twitter', 'Daily Wire', 'Mainstream Media'],
     'NEWSPAPERS': ['newspapers', 'news outlet', 'news website', 'media', 'news'],
@@ -74,9 +75,9 @@ submission = reddit.submission(url=submission_url)
 # while you are writing and debugging your code, 
 # you probably don't want it to run in an infinite loop;
 # you can change this while loop to an if statement to make the code run only once 
-try:
-    while True:
 
+while True:
+    try:
         # printing the current time will help make the output messages more informative
         # since things on reddit vary with time
         print()
@@ -196,6 +197,6 @@ try:
         # (since we're not sleeping for a long period of time),
         # but it does make the program's output more readable.
         time.sleep(1)
-except praw.exceptions.RedditAPIException:
-    pass
+    except Exception as e:
+        pass
 
