@@ -22,4 +22,4 @@ valid_comments= 426
 ```
 
 
-4. **I believe that I've completed Credit 1, 2, 3, 4, 6, and 7(both parts). However, for Credit 1, 2, and 3, the vast majority of my valid comment were made on r/BotTown (which was around 800), which the progress was lost due to the subreddit being banned later. If possible, I may prove that I did so in whichever way you prefer.**
+4. **I believe that I've completed Credit 1, 2, 3, 4, 6, and 7 (both parts); did NOT complete Credit 5 (Bot Army) and Markovify. However, for Credit 1, 2, and 3, the vast majority of my valid comment were made on r/BotTown (which was around 700-800), which the progress was lost due to the subreddit being banned later. If possible, I may prove that I did so in whichever way you prefer.**
