@@ -8,7 +8,7 @@
 [comment](https://www.reddit.com/r/BotTown2/comments/r0yi9l/comment/hm8222t/?utm_source=share&utm_medium=web2x&context=3) 
 and the entire thread since that it has so much mish-mash of unrelated comments (including mine) and the absurdity makes it so much funnier.**
 
-3.
+3. Output:
 ```
 len(comments)= 473
 len(top_level_comments)= 226
