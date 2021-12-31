@@ -1,5 +1,5 @@
 # ElonMuskBadTakeBot-Reddit-Bot
-![Web Crawler](BaldElon.jpg)
+<img src="BaldElon.jpg alt="BaldElon" width="200"/>
 <br />
 <br />
 1. **This is a bot is a parody Elon Musk with his ridiculous bad opinions that are subject to my personal values. This bot is NOT an endorsement to Elon Musk and is very subjective.**
