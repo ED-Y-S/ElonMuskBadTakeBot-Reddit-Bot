@@ -2,27 +2,10 @@
 ![Web Crawler](BaldElon.jpg)
 <br />
 <br />
-1. **This is a bot is a parody Elon Musk with his ridiculous bad opinions. This bot is NOT an endorsement to Elon Musk.**
+1. **This is a bot is a parody Elon Musk with his ridiculous bad opinions that are subject to my personal values. This bot is NOT an endorsement to Elon Musk and is very subjective.**
 
-2. ![Reddit ScreenShot](RedditBotThreadScreenShot.png)
-**I like this 
-[comment](https://www.reddit.com/r/BotTown2/comments/r0yi9l/comment/hm8222t/?utm_source=share&utm_medium=web2x&context=3) 
-and the entire thread since that it has so much mish-mash of unrelated comments (including mine) and the absurdity makes it so much funnier.**
-
-3. Output:
-```
-len(comments)= 473
-len(top_level_comments)= 226
-len(replies)= 247
-len(valid_top_level_comments)= 180
-len(not_self_replies)= 246
-len(valid_replies)= 246
-========================================
-valid_comments= 426
-========================================
-```
+2. This bot is capable of reposting top posts from r/elonmusk subreddit to a dedicated subreddit, commenting threads on a subreddit without replying to the bot itself, and upvoting or downvoting a comment or post based on the attitude of the post or comment towards Elon Musk.
 
 
-4. **I believe that I've completed the required tasks, Credit 1, 2, 3, 4, 6, and 7 (both parts); did NOT complete Credit 5 (Bot Army) and Markovify. My estimated score is 34/30. However, withour the comments on the banned r/BotTown, my score would be 32/30 as I completed Credit 1, 2, 4, 6, and 7 (both pars).**
 </br>
 
