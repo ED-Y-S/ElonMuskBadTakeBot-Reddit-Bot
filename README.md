@@ -1,5 +1,5 @@
 # ElonMuskBadTakeBot-Reddit-Bot
-<img src="https://cloud.githubusercontent.com/assets/yourgif.gif" width="400" height="790">
+<img src="BaldElon.jpg" width="400" height="790">
 <br />
 <br />
 1. **This is a bot is a parody Elon Musk with his ridiculous bad opinions that are subject to my personal values. This bot is NOT an endorsement to Elon Musk and is very subjective.**
