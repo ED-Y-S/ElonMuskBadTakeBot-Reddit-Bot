@@ -1,5 +1,5 @@
 # ElonMuskBadTakeBot-Reddit-Bot
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+![BaldElon](BaldElon.jpg | width=100)
 <br />
 <br />
 1. **This is a bot is a parody Elon Musk with his ridiculous bad opinions that are subject to my personal values. This bot is NOT an endorsement to Elon Musk and is very subjective.**
