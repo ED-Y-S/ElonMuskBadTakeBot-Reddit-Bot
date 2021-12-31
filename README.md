@@ -6,6 +6,6 @@
 
 2. These bots is capable of reposting top posts from r/elonmusk subreddit to a dedicated subreddit, commenting threads on a subreddit without replying to the bot itself, and upvoting or downvoting a comment or post based on the attitude of the post or comment towards Elon Musk.
 </br>
- The bots are
+ The bots are seperate to three files by functions: `submission
 </br>
 
