@@ -8,6 +8,6 @@
 <br />
 The bots are seperate to three files by functions: `bot_submission.py` is responsible for the reposting of r/elonmusk top posts to the dedicated subbreddit, `bot_upvote_downvote.py` is responsible for the upvote/downvote by the bots based on the sentiment of the comment/post towards the dedicated keywords/candidate (Elon Musk), and `bot.py` completes the rest (replying to all other comments that mention of Elon Musk with a fixated Matlib)
  
- ###**Side Note: I am currently working on the implementation of [Markovify](https://github.com/jsvine/markovify) to utilze basic machine learning so that the bot can reply to comments/posts based on the tones of speech of Elon Musk and the context of the comment/post.**
+ ### **Side Note: I am currently working on the implementation of [Markovify](https://github.com/jsvine/markovify) to utilze basic machine learning so that the bot can reply to comments/posts based on the tones of speech of Elon Musk and the context of the comment/post.**
 
 
