@@ -1,5 +1,7 @@
 # ElonMuskBadTakeBot-Reddit-Bot
+<p align="center">
 <img src="BaldElon.jpg" alt='BaldElon' width="400" height="360">
+ </p>
 
 1. **This is a bot is a parody Elon Musk with his ridiculous bad opinions that are subject to my personal values. This bot is NOT an endorsement to Elon Musk and is very subjective.**
 
